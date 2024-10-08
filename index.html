@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Information Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <form id="infoForm" class="form">
+            <h1>Emergency Health Information Form</h1>
+
+            <!-- Personal Details Section -->
+            <h2>Personal Details</h2>
+            <div class="form-group">
+                <input type="text" id="userID" class="form-input" required>
+                <label for="userID" class="form-label">User ID</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="firstName" class="form-input" required>
+                <label for="firstName" class="form-label">First Name</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="lastName" class="form-input" required>
+                <label for="lastName" class="form-label">Last Name</label>
+            </div>
+
+            <div class="form-group">
+                <input type="number" id="age" class="form-input" required>
+                <label for="age" class="form-label">Age</label>
+            </div>
+
+            <div class="form-group">
+                <input type="tel" id="phone" class="form-input" required>
+                <label for="phone" class="form-label">Phone Number</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="address" class="form-input" required>
+                <label for="address" class="form-label">Address</label>
+            </div>
+
+            <div class="form-group">
+                <select id="gender" class="form-input" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <label for="gender" class="form-label">Gender</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="bloodGroup" class="form-input" required>
+                <label for="bloodGroup" class="form-label">Blood Group</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="emergencyName" class="form-input" required>
+                <label for="emergencyName" class="form-label">Emergency Contact Name</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="emergencyRelationship" class="form-input" required>
+                <label for="emergencyRelationship" class="form-label">Emergency Contact Relationship</label>
+            </div>
+
+            <div class="form-group">
+                <input type="tel" id="emergencyPhone" class="form-input" required>
+                <label for="emergencyPhone" class="form-label">Emergency Contact Phone</label>
+            </div>
+
+            <!-- Medical Information Section -->
+            <h2>Medical Information</h2>
+            <div class="form-group">
+                <input type="text" id="medicalID" class="form-input" required>
+                <label for="medicalID" class="form-label">Medical ID</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="medications" class="form-input" required>
+                <label for="medications" class="form-label">Medications</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="surgeries" class="form-input">
+                <label for="surgeries" class="form-label">Surgeries</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="immunizations" class="form-input">
+                <label for="immunizations" class="form-label">Immunizations</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="healthConditions" class="form-input" required>
+                <label for="healthConditions" class="form-label">Health Conditions</label>
+            </div>
+
+            <div class="form-group">
+                <textarea id="familyDoctor" class="form-input" rows="3"></textarea>
+                <label for="familyDoctor" class="form-label">Family Doctor (Contact & Details)</label>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="preferredHospital" class="form-input">
+                <label for="preferredHospital" class="form-label">Preferred Hospital</label>
+            </div>
+
+            <button type="submit" class="form-btn">Submit Information</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
