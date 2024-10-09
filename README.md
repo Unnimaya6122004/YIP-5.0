@@ -1,5 +1,5 @@
 <div align="center">
-# AROGYA CARD #
+# AROGYA CARD 
   
 ## YIP 5.0 Prototype ##
 
